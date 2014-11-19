@@ -1,0 +1,117 @@
+body{
+	position: absolute;
+	background: url("http://c1303.hizliresim.com/17/k/l5mhd.jpg");
+	background-size: 100%;
+	color: white;
+}
+
+.container{
+	text-shadow:1px 1px 12px #fdff41, 1px 1px 24px #fdff41, 1px 1px 36px #fdff41 ;
+	width: 800px;
+	height: 100px;
+}
+.titulo{
+	font-size: 55px;
+	font-weight: bolder;
+	display: inline;
+	font-family: Verdana;
+}
+
+.nombre{
+	font-family: Courier, Verdana;
+	font-size: 20px;
+	display: inline;
+	text-shadow:1px 1px 3px #fdff41, 1px 1px 3px #fdff41, 1px 1px 3px #fdff41;
+}
+
+.inputBox, .inputBackground, .input {
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    margin-top: 10%;
+    margin-left: 25%;
+    
+}
+
+.inputBackground{
+	width: 600px;
+	height: 500px;
+	border: 3px solid red;
+	border-radius: 20px;
+	background-color: white;
+    opacity: 0.6;
+    z-index: 2;
+    
+}
+
+.input{
+	width: 600px;
+	height: 400px;
+	color: yellow;
+	z-index: 2;
+}
+.tituloInput{
+	padding: -10px;
+	margin:-5px;
+	font-size: 55px;
+	padding-left: 30%;
+	color: yellow;
+	font-weight: bolder;
+	text-shadow:1px 1px 8px black, 1px 1px 8px black, 1px 1px 8px black, 1px 1px 8px black;
+}
+.content{
+	text-align: center;
+	font-size: 20px;
+	text-shadow: 1px 1px 4px black, 1px 1px 4px black, 1px 1px 4px black, 1px 1px 4px black;
+}
+
+input[type="text"]{
+	width: 180px;
+	margin-left: 20px;
+	border: 3px solid #11A0A0;
+}
+
+.example{
+	color:white;
+	text-shadow: 1px 1px 4px black, 1px 1px 4px black, 1px 1px 4px black, 1px 1px 4px black;
+	text-align: center;
+}
+#submit{
+	display: inline-block;
+	height:20px;
+	width:160px;
+	background-color:#cc0000;
+	font-family:arial;
+	font-weight:bold;
+	color:#ffffff;
+	border-radius: 5px;
+	text-align:center;
+	margin-top:2px;
+	margin-left: 38%;
+}
+#submit:hover{
+	background-color: #f47b00;
+}
+.result{
+	margin-top: 15px;
+	text-align: center;
+	text-color: black;
+}
+
+.resultBackground{
+	opacity: .6;
+	background-color: grey;
+	margin-left: 20px;
+	margin-right: 20px;
+	border-radius: 20px;
+}
+
+.temp{
+	color:black;
+}
+.tempOptions{
+	margin-left: 35%;
+}
+.resultParagraph{
+	color:blue;
+	text-shadow:1px 1px 4px white, 1px 1px 4px white, 1px 1px 4px white;
+}
