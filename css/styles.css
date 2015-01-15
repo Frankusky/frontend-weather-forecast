@@ -1,8 +1,10 @@
 body{
 	position: absolute;
-	background: url("http://c1303.hizliresim.com/17/k/l5mhd.jpg");
-	background-size: 100%;
-	color: white;
+	background: url("../images/weather_bg.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 .container{
